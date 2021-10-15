@@ -1,0 +1,15 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+
+numbers:
+    path: /lucky/ynumber/{data}
+    controller: App\Controller\LuckyController::ynumber
+
+
+
+numberstwo:
+    path: /lucky/ynumbertwo/
+    controller: App\Controller\LuckyController::ynumbertwo
+      
